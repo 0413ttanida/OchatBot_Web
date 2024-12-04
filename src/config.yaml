@@ -1,0 +1,21 @@
+cookie:
+  expiry_days: 1
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    totoha:
+      email: totoha@gmail.com
+      first_name: Tanida
+      last_name: Otoha
+      password: $2b$12$XvJiAjQDAnZMnf3qt7RMNe5mrL3iVGXZu7Td4DUl3WSdw9vvkYMSq
+    ttanida:
+      email: ttanida@gmail.com
+      first_name: Tanida
+      last_name: Taro
+      password: $2b$12$UDiYrE4Tc.u4ct.OG8bkYuc3V792CGOD/dp89LJdirjMgU0c/S7i6
+    twakana:
+      email: twakana@gmail.com
+      first_name: Tanida
+      last_name: Wakana
+      password: $2b$12$Dg4POrkPHyTOGVQpvdR31.fxk.xNJbVcQdoMMu9Y3Y1jtPvxliDB.
