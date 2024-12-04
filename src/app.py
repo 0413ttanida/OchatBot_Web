@@ -3,11 +3,14 @@ import streamlit_authenticator as stauth
 
 import yaml
 from yaml.loader import SafeLoader
+import os
+
+# スクリプトのディレクトリを基準にパスを解決
+script_dir = os.path.dirname(os.path.abspath(__file__))
+yaml_path = os.path.join(script_dir, "config.yaml")
 
 # ユーザー設定読み込み
-yaml_path = "config.yaml"
-
-with open(yaml_path) as file:
+with open(yaml_path, 'r') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
 authenticator = stauth.Authenticate(
